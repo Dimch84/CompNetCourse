@@ -6,14 +6,18 @@ namespace FirstSample
         public static void Run() {
             DisplayDeviceInformation();
             Console.ReadLine();
+
             DisplayActiveTcpConnections();
             Console.ReadLine();
+
             DisplayIPv4TrafficStatistics();
             Console.ReadLine();
         }
 
         private static void DisplayDeviceInformation() {
+
             var adapters = NetworkInterface.GetAllNetworkInterfaces();
+
             Console.WriteLine($"There were {adapters.Length} devices detected on your machine");
             Console.WriteLine();
             Console.WriteLine("Device Details");

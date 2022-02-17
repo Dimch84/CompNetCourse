@@ -13,6 +13,8 @@ namespace FirstSample
             WebResponse response = request.GetResponse();
             Console.WriteLine(((HttpWebResponse)response).StatusDescription);
 
+            Console.WriteLine("Content returned by the server:");
+
             // Get the stream containing content returned by the server.
             // The using block ensures the stream is automatically closed.
             using (Stream dataStream = response.GetResponseStream())
