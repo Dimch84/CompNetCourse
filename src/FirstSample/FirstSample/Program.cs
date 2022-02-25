@@ -4,11 +4,11 @@
     {
         public static void Main()
         {
-            DnsTest.Run(hostname: "www.microsoft.com");
-            DnsTest.Run(hostname: "math-cs.spbu.ru");
+            //DnsTest.Run(hostname: "www.microsoft.com");
+            //DnsTest.Run(hostname: "math-cs.spbu.ru");
 
-            UriTest.Run();
-            UriTest.Run2();
+            //UriTest.Run();
+            //UriTest.Run2();
 
             WebRequestTest.Run();
 
