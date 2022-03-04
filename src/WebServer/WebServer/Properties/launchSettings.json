@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WebServer": {
+      "commandName": "Project",
+      "commandLineArgs": "8080"
+    }
+  }
+}
