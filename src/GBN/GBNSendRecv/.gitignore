@@ -1,0 +1,6 @@
+python*
+.idea
+.vscode
+bin
+obj
+.DS_Store

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <title>Simulate GBN</title>
+    <script src="simulate.js"></script>
+    <link rel="stylesheet" href="simulate.css"/>
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+</head>
+
+<body onload="init()">
+<div class="container">
+    <div class="row" id="control" style="padding-top: 100px;">
+        <div class="col btn btn-danger" onclick="drop(0)">drop</div>
+        <div class="col btn btn-danger" onclick="drop(1)">drop</div>
+        <div class="col btn btn-danger" onclick="drop(2)">drop</div>
+        <div class="col btn btn-danger" onclick="drop(3)">drop</div>
+        <div class="col btn btn-danger" onclick="drop(4)">drop</div>
+        <div class="col btn btn-danger" onclick="drop(5)">drop</div>
+        <div class="col btn btn-danger" onclick="drop(6)">drop</div>
+        <div class="col btn btn-danger" onclick="drop(7)">drop</div>
+        <div class="col btn btn-danger" onclick="drop(8)">drop</div>
+        <div class="col btn btn-danger" onclick="drop(9)">drop</div>
+        <div class="col btn btn-danger" onclick="drop(10)">drop</div>
+    </div>
+    <div class="row" id="sending" style="padding-top: 100px;">
+        <div class="col badge badge-secondary pkt send_pkt">&nbsp;</div>
+        <div class="col badge badge-secondary pkt send_pkt">&nbsp;</div>
+        <div class="col badge badge-secondary pkt send_pkt">&nbsp;</div>
+        <div class="col badge badge-secondary pkt send_pkt">&nbsp;</div>
+        <div class="col badge badge-secondary pkt send_pkt">&nbsp;</div>
+        <div class="col badge badge-secondary pkt send_pkt">&nbsp;</div>
+        <div class="col badge badge-secondary pkt send_pkt">&nbsp;</div>
+        <div class="col badge badge-secondary pkt send_pkt">&nbsp;</div>
+        <div class="col badge badge-secondary pkt send_pkt">&nbsp;</div>
+        <div class="col badge badge-secondary pkt send_pkt">&nbsp;</div>
+        <div class="col badge badge-secondary pkt send_pkt">&nbsp;</div>
+        <div class="row send-window" id="window"></div>
+    </div>
+    <div class="row" id="recving" style="padding-top: 100px;">
+        <div class="col badge badge-secondary pkt recv_pkt">&nbsp;</div>
+        <div class="col badge badge-secondary pkt recv_pkt">&nbsp;</div>
+        <div class="col badge badge-secondary pkt recv_pkt">&nbsp;</div>
+        <div class="col badge badge-secondary pkt recv_pkt">&nbsp;</div>
+        <div class="col badge badge-secondary pkt recv_pkt">&nbsp;</div>
+        <div class="col badge badge-secondary pkt recv_pkt">&nbsp;</div>
+        <div class="col badge badge-secondary pkt recv_pkt">&nbsp;</div>
+        <div class="col badge badge-secondary pkt recv_pkt">&nbsp;</div>
+        <div class="col badge badge-secondary pkt recv_pkt">&nbsp;</div>
+        <div class="col badge badge-secondary pkt recv_pkt">&nbsp;</div>
+        <div class="col badge badge-secondary pkt recv_pkt">&nbsp;</div>
+    </div>
+</div>
+
+<div class="container" style="padding-top: 100px;">
+    <div class="btn btn-info" onclick="setmove()">Next</div>
+    <div class="btn btn-danger" onclick="location.reload()">Reset</div>
+</div>
+</body>
+
+</html>

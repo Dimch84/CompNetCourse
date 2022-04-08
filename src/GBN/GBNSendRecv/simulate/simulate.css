@@ -1,0 +1,24 @@
+#sending {
+    align-items: center;
+}
+
+.send-window {
+    float: outside;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    color: forestgreen;
+    border: solid;
+    height: 60px;
+    width: 416px;
+}
+
+.col {
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+
+.pkt {
+    background-color: gray;
+    height: 50px;
+    transition: transform 2s !important;
+}

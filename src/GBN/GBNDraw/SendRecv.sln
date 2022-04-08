@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoBackNDraw", "GoBackNDraw.csproj", "{AB4F4B23-0A44-460F-BD7D-01DDF3F0D62A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SendRecv", "SendRecv", "{454B4035-7513-4A14-B00A-35D9E09287E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GBN", "..\GBNSendRecv\GBNlib\GBN.csproj", "{C85C79E8-EE60-4063-AD2E-CB683F7DFCC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GBNrecvr", "..\GBNSendRecv\GBNrecver\GBNrecvr.csproj", "{C48A1C2F-B5A1-4FF1-85D0-20DAF8E5BD05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GBNsender", "..\GBNSendRecv\GBNsender\GBNsender.csproj", "{BF154CBE-1D17-49E7-B8F5-34ED28123754}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClientServer", "ClientServer", "{EEBA02F9-D636-4757-A172-EF95DCA3D320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GBNClient", "..\GBNClientServer\GBNClient\GBNClient.csproj", "{0CAD3026-BA09-4E98-9BC7-66F7D8B7C6E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GBNServer", "..\GBNClientServer\GBNServer\GBNServer.csproj", "{ADDF0336-C4D1-4F1C-890F-D9D981B860AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB4F4B23-0A44-460F-BD7D-01DDF3F0D62A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB4F4B23-0A44-460F-BD7D-01DDF3F0D62A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB4F4B23-0A44-460F-BD7D-01DDF3F0D62A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB4F4B23-0A44-460F-BD7D-01DDF3F0D62A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C85C79E8-EE60-4063-AD2E-CB683F7DFCC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C85C79E8-EE60-4063-AD2E-CB683F7DFCC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C85C79E8-EE60-4063-AD2E-CB683F7DFCC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C85C79E8-EE60-4063-AD2E-CB683F7DFCC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C48A1C2F-B5A1-4FF1-85D0-20DAF8E5BD05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48A1C2F-B5A1-4FF1-85D0-20DAF8E5BD05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48A1C2F-B5A1-4FF1-85D0-20DAF8E5BD05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48A1C2F-B5A1-4FF1-85D0-20DAF8E5BD05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF154CBE-1D17-49E7-B8F5-34ED28123754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF154CBE-1D17-49E7-B8F5-34ED28123754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF154CBE-1D17-49E7-B8F5-34ED28123754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF154CBE-1D17-49E7-B8F5-34ED28123754}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CAD3026-BA09-4E98-9BC7-66F7D8B7C6E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CAD3026-BA09-4E98-9BC7-66F7D8B7C6E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CAD3026-BA09-4E98-9BC7-66F7D8B7C6E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CAD3026-BA09-4E98-9BC7-66F7D8B7C6E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADDF0336-C4D1-4F1C-890F-D9D981B860AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADDF0336-C4D1-4F1C-890F-D9D981B860AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADDF0336-C4D1-4F1C-890F-D9D981B860AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADDF0336-C4D1-4F1C-890F-D9D981B860AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C85C79E8-EE60-4063-AD2E-CB683F7DFCC1} = {454B4035-7513-4A14-B00A-35D9E09287E8}
+		{C48A1C2F-B5A1-4FF1-85D0-20DAF8E5BD05} = {454B4035-7513-4A14-B00A-35D9E09287E8}
+		{BF154CBE-1D17-49E7-B8F5-34ED28123754} = {454B4035-7513-4A14-B00A-35D9E09287E8}
+		{0CAD3026-BA09-4E98-9BC7-66F7D8B7C6E3} = {EEBA02F9-D636-4757-A172-EF95DCA3D320}
+		{ADDF0336-C4D1-4F1C-890F-D9D981B860AA} = {EEBA02F9-D636-4757-A172-EF95DCA3D320}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAC00157-A560-4CF8-B2E4-4B8600D89E4E}
+	EndGlobalSection
+EndGlobal
