@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.GetAvailableSocketPort", "GetAvailableSocketPort\2.GetAvailableSocketPort.csproj", "{9594B064-C912-46A3-AFEE-E35DA7AD7E88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.GetMyLocalAddrAndMask", "GetMyLocalAddrAndMask\1.GetMyLocalAddrAndMask.csproj", "{E4C77A47-4474-4FC2-83F8-640A49B9A8A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9594B064-C912-46A3-AFEE-E35DA7AD7E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9594B064-C912-46A3-AFEE-E35DA7AD7E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9594B064-C912-46A3-AFEE-E35DA7AD7E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9594B064-C912-46A3-AFEE-E35DA7AD7E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4C77A47-4474-4FC2-83F8-640A49B9A8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4C77A47-4474-4FC2-83F8-640A49B9A8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4C77A47-4474-4FC2-83F8-640A49B9A8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4C77A47-4474-4FC2-83F8-640A49B9A8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DA64908-B964-4627-9B6F-694E7E9CC9CE}
+	EndGlobalSection
+EndGlobal
