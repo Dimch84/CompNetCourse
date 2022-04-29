@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingSimulator.Core", "DistanceVector\RoutingSimulator.Core\RoutingSimulator.Core.csproj", "{F93B7A8A-D099-4679-97B8-722BC46B65C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DistanceVector", "DistanceVector", "{CEB9452A-D9C7-4B91-9ADE-1C6EF74D8A4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingSimulator.UI", "DistanceVector\RoutingSimulator.UI\RoutingSimulator.UI.csproj", "{1A718740-26C6-4F0D-9909-F14C5EB2F7B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dijkstra", "Dijkstra", "{50B720E9-3908-445B-A8D5-94ADB51E64A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkRouting", "NetworkRouting\NetworkRouting.csproj", "{B6E42456-EACB-4EF6-851E-C3594AF0158E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F93B7A8A-D099-4679-97B8-722BC46B65C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93B7A8A-D099-4679-97B8-722BC46B65C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93B7A8A-D099-4679-97B8-722BC46B65C6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F93B7A8A-D099-4679-97B8-722BC46B65C6}.Debug|x86.Build.0 = Debug|Any CPU
+		{F93B7A8A-D099-4679-97B8-722BC46B65C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93B7A8A-D099-4679-97B8-722BC46B65C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F93B7A8A-D099-4679-97B8-722BC46B65C6}.Release|x86.ActiveCfg = Release|Any CPU
+		{F93B7A8A-D099-4679-97B8-722BC46B65C6}.Release|x86.Build.0 = Release|Any CPU
+		{1A718740-26C6-4F0D-9909-F14C5EB2F7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A718740-26C6-4F0D-9909-F14C5EB2F7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A718740-26C6-4F0D-9909-F14C5EB2F7B2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1A718740-26C6-4F0D-9909-F14C5EB2F7B2}.Debug|x86.Build.0 = Debug|Any CPU
+		{1A718740-26C6-4F0D-9909-F14C5EB2F7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A718740-26C6-4F0D-9909-F14C5EB2F7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A718740-26C6-4F0D-9909-F14C5EB2F7B2}.Release|x86.ActiveCfg = Release|Any CPU
+		{1A718740-26C6-4F0D-9909-F14C5EB2F7B2}.Release|x86.Build.0 = Release|Any CPU
+		{B6E42456-EACB-4EF6-851E-C3594AF0158E}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{B6E42456-EACB-4EF6-851E-C3594AF0158E}.Debug|Any CPU.Build.0 = Debug|x86
+		{B6E42456-EACB-4EF6-851E-C3594AF0158E}.Debug|x86.ActiveCfg = Debug|x86
+		{B6E42456-EACB-4EF6-851E-C3594AF0158E}.Debug|x86.Build.0 = Debug|x86
+		{B6E42456-EACB-4EF6-851E-C3594AF0158E}.Release|Any CPU.ActiveCfg = Release|x86
+		{B6E42456-EACB-4EF6-851E-C3594AF0158E}.Release|Any CPU.Build.0 = Release|x86
+		{B6E42456-EACB-4EF6-851E-C3594AF0158E}.Release|x86.ActiveCfg = Release|x86
+		{B6E42456-EACB-4EF6-851E-C3594AF0158E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F93B7A8A-D099-4679-97B8-722BC46B65C6} = {CEB9452A-D9C7-4B91-9ADE-1C6EF74D8A4A}
+		{1A718740-26C6-4F0D-9909-F14C5EB2F7B2} = {CEB9452A-D9C7-4B91-9ADE-1C6EF74D8A4A}
+		{B6E42456-EACB-4EF6-851E-C3594AF0158E} = {50B720E9-3908-445B-A8D5-94ADB51E64A7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9967885D-1A28-4C17-8CDE-E4E73C410A44}
+	EndGlobalSection
+EndGlobal

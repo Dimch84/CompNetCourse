@@ -1,0 +1,34 @@
+﻿<Window x:Class="RoutingSimulator.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RoutingSimulator.UI"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="600" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Canvas x:Name="canvas"
+                    Grid.Row="0"
+                    Background="White"
+                    MouseLeftButtonDown="canvas_MouseLeftButtonDown"
+                    />
+        <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center">
+            <RadioButton IsChecked="True" VerticalAlignment="Center" x:Name="defaultMode" Checked="mode_Checked" />
+            <Label VerticalAlignment="Center">Add/Move</Label>
+            <RadioButton VerticalAlignment="Center" x:Name="deleteMode" Checked="mode_Checked"/>
+            <Label VerticalAlignment="Center">Delete</Label>
+            <RadioButton VerticalAlignment="Center" x:Name="sendMode" Checked="mode_Checked"/>
+            <Label VerticalAlignment="Center">Send packet</Label>
+        </StackPanel>
+        <Separator Grid.Row="1" VerticalAlignment="Top"/>
+        <Separator Grid.Row="2" VerticalAlignment="Top"/>
+        <Label Grid.Row="2" x:Name="modeDescriptionLabel"/>
+
+    </Grid>
+</Window>
