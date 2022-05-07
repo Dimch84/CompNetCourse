@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RIP Emulator", "RIP Emulator\RIP Emulator.csproj", "{0060692C-34D7-4A0A-96FB-E0817787F6AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0060692C-34D7-4A0A-96FB-E0817787F6AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0060692C-34D7-4A0A-96FB-E0817787F6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0060692C-34D7-4A0A-96FB-E0817787F6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0060692C-34D7-4A0A-96FB-E0817787F6AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84BC4FAF-0D7D-45B5-8F36-09543F1D855A}
+	EndGlobalSection
+EndGlobal
