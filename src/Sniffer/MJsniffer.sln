@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MJsniffer", "MJSniff\MJsniffer.csproj", "{EC2D7E72-9F4F-420F-B7D9-5D5109784A9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC2D7E72-9F4F-420F-B7D9-5D5109784A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC2D7E72-9F4F-420F-B7D9-5D5109784A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC2D7E72-9F4F-420F-B7D9-5D5109784A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC2D7E72-9F4F-420F-B7D9-5D5109784A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68AE851F-FCE7-46DD-8ED9-E33E112F943B}
+	EndGlobalSection
+EndGlobal
