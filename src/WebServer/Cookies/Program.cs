@@ -1,7 +1,7 @@
 ﻿using System.Net;
 
-//HttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://www.google.com/");
-HttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://www.ozon.com/");
+HttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://www.google.com/");
+//HttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://www.ozon.com/");
 request.CookieContainer = new CookieContainer();
 
 HttpWebResponse response = (HttpWebResponse)request.GetResponse();
