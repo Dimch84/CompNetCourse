@@ -34,7 +34,7 @@ class Program
 
     static void Main(string[] args)
     {
-        //Lookup("www.microsoft.com");
+        Lookup("www.microsoft.com");
         ReverseLookup("195.70.219.101");
     }
 }

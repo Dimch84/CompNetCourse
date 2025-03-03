@@ -41,7 +41,7 @@ namespace Server
 
         public void listenerThread()
         {
-            TcpListener tcpListener = new TcpListener(8087);
+            TcpListener tcpListener = new TcpListener(8764);
             tcpListener.Start();
 
             while (true)

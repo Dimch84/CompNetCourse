@@ -12,6 +12,7 @@ namespace DNSSimulation
 {
     public class Program
     {
+        // curl --data a http://localhost:7693/hosts?domainName=spbu.ru
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();

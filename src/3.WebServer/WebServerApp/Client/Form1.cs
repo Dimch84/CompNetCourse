@@ -44,7 +44,7 @@ namespace Client
 
             fileBuffer = Encoding.ASCII.GetBytes(Base64Encode(Encoding.ASCII.GetString(fileBuffer)));
 
-            TcpClient clientSocket = new TcpClient(textBoxServer.Text, 8087);
+            TcpClient clientSocket = new TcpClient(textBoxServer.Text, 8764);
             NetworkStream networkStream = clientSocket.GetStream();
             networkStream.Write(fileBuffer, 0, fileBuffer.GetLength(0));
             networkStream.Close();

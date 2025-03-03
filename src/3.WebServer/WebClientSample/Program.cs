@@ -26,7 +26,7 @@ namespace WebClientSample
         public static void BasicWebClient()
         {
             WebClient Client = new WebClient();
-            Stream strm = Client.OpenRead("http://yandex.ru");
+            Stream strm = Client.OpenRead("http://ya.ru");
             StreamReader sr = new StreamReader(strm);
             string line;
             while ((line = sr.ReadLine()) != null)
