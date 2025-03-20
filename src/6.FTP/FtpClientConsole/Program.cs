@@ -20,7 +20,7 @@ namespace FtpSampleApp {
             FtpWebRequest req = (FtpWebRequest)WebRequest.Create("ftp://127.0.0.1:21");
             req.Method = WebRequestMethods.Ftp.ListDirectoryDetails;
 
-            req.Credentials = new NetworkCredential("TestUser", "123456");
+            req.Credentials = new NetworkCredential("TestUser", "1234567");
             req.EnableSsl = false;
 
             FtpWebResponse resp = (FtpWebResponse)await req.GetResponseAsync();
@@ -47,7 +47,7 @@ namespace FtpSampleApp {
                 FtpWebRequest req = (FtpWebRequest)WebRequest.Create("ftp://127.0.0.1:21/aa.csv");
                 req.Method = WebRequestMethods.Ftp.UploadFile;
 
-                req.Credentials = new NetworkCredential("TestUser", "123456");
+                req.Credentials = new NetworkCredential("TestUser", "1234567");
                 req.UsePassive = true;
 
                 byte[] fileBytes;
@@ -82,7 +82,7 @@ namespace FtpSampleApp {
             FtpWebRequest req = (FtpWebRequest)WebRequest.Create("ftp://127.0.0.1:21/aa.csv");
             req.Method = WebRequestMethods.Ftp.DownloadFile;
 
-            req.Credentials = new NetworkCredential("TestUser", "123456");
+            req.Credentials = new NetworkCredential("TestUser", "1234567");
             req.UsePassive = true;
 
             using (FtpWebResponse resp = (FtpWebResponse)req.GetResponse())

@@ -11,7 +11,8 @@
         static string port;
         static string host;
 
-        static void Main(){
+        static void Main()
+        {
             host = "*";
             port = "9992";
 
@@ -116,7 +117,7 @@
                     }
                 }               
 
-                //request processing
+                // 1. request processing
                 WebResponse response = request.GetResponse();
                 result = GetBytesFromStream(response.GetResponseStream());
                 context.Response.ContentType = response.ContentType;
@@ -138,7 +139,7 @@
                 Console.WriteLine("ERROR:" + ex.Message);
             }
 
-            //response to client
+            // 2. response to client
             byte[] b = result;
             context.Response.ContentLength64 = b.Length;
             context.Response.OutputStream.Write(b, 0, b.Length);

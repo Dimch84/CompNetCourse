@@ -20,7 +20,7 @@ namespace DNSSamples
             strIpAddress = MyHost.AddressList[0].MapToIPv4().ToString();
 
             // 
-            Console.WriteLine("*** Get Host By Name ***");
+            Console.WriteLine("\n*** Get Host By Name ***");
             string hostName = Dns.GetHostName();
             Console.WriteLine("Local hostname: {0}", hostName);
             IPHostEntry myself = Dns.GetHostByName(hostName);
@@ -30,7 +30,7 @@ namespace DNSSamples
             }
 
             // 
-            Console.WriteLine("*** Get DNS Address Info ***");
+            Console.WriteLine("\n*** Get DNS Address Info ***");
             IPAddress test = IPAddress.Parse(strIpAddress);
             IPHostEntry iphe = Dns.GetHostByAddress(test);
 
@@ -46,7 +46,7 @@ namespace DNSSamples
             }
 
             //
-            Console.WriteLine("*** Get Dns Server ***");
+            Console.WriteLine("\n*** Get DNS Server(s) ***");
             var dnsServers = GetDnsServers();
             Console.WriteLine(string.Join(", ", dnsServers));
 
