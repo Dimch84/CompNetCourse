@@ -19,10 +19,13 @@ namespace goBackN
             Console.Write(" ]");
             for (int i = sf + sw; i < dataLength; i++) unsend(i);
             Console.ResetColor();
+
+            // Receiver
             Console.Write("{0,20}      ", "Recver");
             for (int i = 0; i < rn; i++) sended(i);
             if (rn < 16) waitForResponse(rn);
             for (int i = rn + 1; i < dataLength; i++) unsend(i);
+
             Console.ResetColor();
             Console.WriteLine();
             Console.WriteLine();

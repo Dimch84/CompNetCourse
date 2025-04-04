@@ -7,9 +7,9 @@ namespace goBackN
 {
     public class Recver
     {
-        public List<Frame> Frames { get; set; }
-        public ConcurrentQueue<Frame> send_que { get; set; }
-        public ConcurrentQueue<Frame> rcv_que { get; set; }
+        public List<Frame> Frames { get; private set; }
+        public ConcurrentQueue<Frame> send_que { get; private set; }
+        public ConcurrentQueue<Frame> rcv_que { get; private set; }
         public int rcv_n { get; set; }
         public Sender Sender { get; set; }
 

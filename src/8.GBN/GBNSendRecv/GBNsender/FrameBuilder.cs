@@ -22,11 +22,11 @@ namespace GBNsender {
                 f.src_addr = this.src_addr;
 
                 int packet_length = data.Length - cursor;
-                if (packet_length > 1500) packet_length = 1500;
-                if (packet_length < 46) packet_length = 46;
+                if (packet_length > 30) packet_length = 30;
+                if (packet_length < 10) packet_length = 10;
                 byte[] buffer = new byte[packet_length];
                 int copy_length =
-                    data.Length - cursor < 46 ?
+                    data.Length - cursor < 10 ?
                     data.Length - cursor : packet_length;
                 System.Array.Copy(data, cursor, buffer, 0, copy_length);
                 f.data = buffer;

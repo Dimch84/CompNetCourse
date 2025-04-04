@@ -18,7 +18,7 @@ namespace GBN.IO {
             await writer.WriteAddressAsync(frame.dst_addr);
             await writer.WriteAddressAsync(frame.src_addr);
 
-            if (frame.data.Length > 1500 || frame.data.Length < 46)
+            if (frame.data.Length > 30 || frame.data.Length < 10)
                 throw new InvalidDataException ("Invalid frame data length");
 
             await writer.WriteAsync(BitConverter.GetBytes ((ushort) frame.data.Length));
